@@ -38,7 +38,7 @@ names.push("Jar Jar");
 
 // replacing Anakin with Darth Vader
 let anakinIndex = names.indexOf("Anakin");
-if (anakinIndex == -1) {
+if (anakinIndex !== -1) {
     names[anakinIndex] = "Darth Vader";
 }
 
